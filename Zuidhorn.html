@@ -1,39 +1,34 @@
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="CSS/design.css"> </link>
-  </head>
-  <body>
-     <div id= "bovenste">
+<!DOCTYPE html>
+<html lang="nl" xml:lang="nl" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Wedstrijdschema</title>
+    <link rel="stylesheet" href="CSS/design.css">
+    <meta charset="UTF-8">
+</head>
+<body>
+     <div id= "bovenste"> <!--begin bovenste balk-->
         <h1> wedstrijdschema </h1>
-     </div>
-            
-            
-        
-     </div>
+     </div> <!--Einde bovenste balk-->
+                           
+       
+     <div id= "image"> <!--begin div schema-->
+        <picture>
+            <source media=" (min-width: 600px)" srcset="schema.jpg">
+            <img src="schema.jpg" alt="schema" style="width:auto;">
+        </picture>
+     </div> <!--einde div schema-->
+          
+     <div id="tekst"> <!--begin div tekst-->
+            <div class="post"> <!--begin post-->
+                <h1> Naam tegenstander </h1>
+                <p>Info tegenstander</p>
+            </div> <!--einde post-->
 
-     
-     <div id= "image">
-  
-    <picture>
-  <source media=" (min-width: 600px)" srcset="schema.jpg">
-  <source media=" (min-width: 500px)" srcset="schema.jpg">
-  <img src="schema.jpg" alt="schema" style="width:auto;">
-  </picture>
-     </div>
-     
-     </div>
-     <div id="tekst">
-            <div class="post">
-                <h1> Kopje 1 </h1>
-                <p> paragraaf</p>
-            </div>
-
-             <div class="post">
-                <h1> Kopje 1 </h1>
-                <p> paragraaf</p>
-
-            </div>
-    </div>
+             <div class="post"><!--begin post-->
+                <h1>Naam tegenstander</h1>
+                <p>Info tegenstander</p>
+            </div> <!--einde post-->
+    </div> <!--eind div tekst-->
 
 
   </body>

@@ -6,6 +6,7 @@ body {
     height: 100%;
 }
 h1 {
+    text-decoration: underline;
     color: green;
 }
 #bovenste{
@@ -15,9 +16,10 @@ h1 {
     text-align: center;
     }
 
-    #image { background-color: white;
+#image { background-color: white;
     width: 30%;
     height: 100%;
+    float:left;
 }
 
 
@@ -26,6 +28,7 @@ h1 {
     background-color: #9CFF72;
     width: 60%;
     height: 100%;
+    float:right;
 }
 .post {
 background-color: white;

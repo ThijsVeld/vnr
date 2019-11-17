@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 h1 {
-    color: red;
+    color: rgb(49, 25, 189);
 }
 #bovenste{
     background-color: white;
@@ -17,11 +17,13 @@ h1 {
 #image { background-color: white;
     width: 30%;
     height: 100%;
+    float:left;
 }
 #text {
     background-color: #9CFF72;
     width: 60%;
     height: 100%;
+    float:right;
 }
 .post {
 background-color: white;
