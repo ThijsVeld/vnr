@@ -23,6 +23,16 @@ h1 {
     width: 60%;
     height: 100%;
 }
+.post {
+background-color: white;
+border: 12px solid black;
+border-radius: 20px;
+width: 50%;
+margin-left: 40%;
+margin-top: 12px;
+padding:12px;
+
+}
 
 
 
