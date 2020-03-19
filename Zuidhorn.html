@@ -1,36 +1,33 @@
 <!DOCTYPE html>
-<html lang="nl" xml:lang="nl" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Wedstrijdschema</title>
+<html lang="nl">
+ <head>
+    <meta charset="utf-8"/>
     <link rel="stylesheet" href="CSS/design.css">
-    <meta charset="UTF-8">
-</head>
-<body>
-     <div id= "bovenste"> <!--begin bovenste balk-->
-        <h1> wedstrijdschema </h1>
-     </div> <!--Einde bovenste balk-->
-                           
-       
-     <div id= "image"> <!--begin div schema-->
-        <picture>
-            <source media=" (min-width: 600px)" srcset="schema.jpg">
+    <title>aankomende Wedstrijden</title>
+ </head>
+ <body>
+   <div id="balk">
+   <!--titel van de pagina-->
+     De aankomende wedstrijden
+   </div>
+
+   <div id="container">
+   <!--het scherm opdelen in drie kolommen-->
+        <div id="menu">
+        <!--het menu dat op elke pagina terug komt-->
+            <ul>
+                <li><a href="les.html">Home</a></li>
+                <li><a href="Zuidhorn.html">schema</a></li>
+                <li><a href="wedstrijd.html">de afgelopen wedstrijd</a></li>
+                <li><a href="Colofon.html">Colofoon</a></li>
+            </ul>
+        </div>
+        <div id="berichten">
+            <div class="Foto">
+            <!--middelstekolom-->
+            <source media=" (min-width:600px)" srcset="schema.jpg">
             <img src="schema.jpg" alt="schema" style="width:auto;">
-        </picture>
-     </div> <!--einde div schema-->
-          
-     <div id="tekst"> <!--begin div tekst-->
-            <div class="post"> <!--begin post-->
-                <h1> Naam tegenstander </h1>
-                <p>Info tegenstander</p>
-            </div> <!--einde post-->
-
-             <div class="post"><!--begin post-->
-                <h1>Naam tegenstander</h1>
-                <p>Info tegenstander</p>
-            </div> <!--einde post-->
-    </div> <!--eind div tekst-->
-
-
-  </body>
-
-</html>
+ 
+            </div>
+        
+   </div>

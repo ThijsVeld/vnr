@@ -1,32 +1,48 @@
 <!DOCTYPE html>
-<html lang="nl" xml:lang="nl" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>Laatste wedstrijd</title>
-    <link rel="stylesheet" href="CSS/wedstrijd.css">
-    <meta charset="UTF-8">
-</head>
-<body>
-     <div id= "bovenste"> <!--bovenste balk-->
-        <h1> De wedstrijd </h1>
-     </div> <!--einde bovenste balk-->
-    <div id= "image"> <!--plaatje Aduard-->
-        <picture>
-        
-        <img src="Aduard.jpg" alt="Aduard" style="width:auto;">
-        </picture>
-    </div> <!--einde plaatje Aduard-->
-     
-    <div id="tekst"> <!--Begin samenvatting-->
-            <div class="post"> <!--begin post-->
-                <h1> de samenvatting</h1>
-                <p> de sammenvatting van de wedstrijd</p>
-            </div><!--einde post-->
+<html lang="nl">
+ <head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="CSS/box.css">
+  <title>afgelopen wedstrijd Zuidhorn B2</title>
+ </head>
+ <body>
+   <div id="balk">
+   <!--De titel van de pagina-->
+     Afgelopen wedstrijd
+   </div>
 
-             <div class="post"><!--begin post-->
-                <h1> positie in de poule </h1>
-                <p> positie poule</p>
-            </div> <!--einde post-->
-    </div> <!--einde samenvatting-->
-  </body>
+   <div id="container">
+   <!--het scherm delen in drie kolommen-->
+        <div id="menu">
+        <!--het menu dat op elke pagina terug komt-->
+            <ul>
+                <li><a href="les.html">Home</a></li>
+                <li><a href="Zuidhorn.html">schema</a></li>
+                <li><a href="wedstrijd.html">de afgelopen wedstrijd</a></li>
+                <li><a href="Colofon.html">Colofon</a></li>
+            </ul>
+        </div>
+        <div id="berichten">
+        <!--middelstekolom-->
+            <div class="boodschap">
+            <!--info-->
+             <h1> de afgelopen wedstrijd </h1>
+             <p> De afgelopen wedstrijd werd gespeeld tegen vv aduard B1 </p>
+            </div>
+            <div class="boodschap">
+             <h1> Verloop </h1>
+             <p> Het verloop van de wedstrijd ging niet goed want de wedstrijd werd gestaakt bij een stand van 2-0. De top coach van Zuidhorn kreeg rood </p>
+            </div>
+            <div class="boodschap">
+             <h1> Hier een link naar de site waar U ons kunt volgen zodat U weet wanneer wij een wedstrijd spelen </h1>
+             <p> <a href="https://www.voetbal.nl/inloggen"> Voetbal.nl </a> </p>
+            </div>
+        </div>
+        <div id="plaatjes">
+        <!--rechterkolom-->
+            <img src="Aduard.jpg" alt="Aduard" width="300" height="600" allowfullscreen=""></img>
+        </div>
+   </div>
 
+ </body>
 </html>
